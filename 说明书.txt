@@ -1,0 +1,19 @@
+1 git status    查看状态
+2 git add .   添加
+3 git status
+4 git config --global user.email "添加邮箱地址"
+5  git config --global user.name "你的用户名字"
+
+6 git commit -a -m "add"
+7 git remote add origin git@github.com:ZHzhaohuan/H1701.git（远程的起源已经存在。）
+
+8 git push -u origin master （写出这一行 出现以下错误话 就写
+				git remote remove origin
+			git remote add origin git@github.com:ZHzhaohuan/H1701.git）
+
+（错误：fatal: 'github.com/LiuXiangY/H1701.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.）
+
+
